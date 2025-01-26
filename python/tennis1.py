@@ -41,7 +41,7 @@ class TennisGame1:
             else:
                 result = f"Win for {leader_name}"
         else:
-                result += self.POINTS_NAME[self.player1_points]
-                result += "-"
-                result += self.POINTS_NAME[self.player2_points]
+            result += self.POINTS_NAME[self.player1_points]
+            result += "-"
+            result += self.POINTS_NAME[self.player2_points]
         return result
